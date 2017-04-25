@@ -6,14 +6,12 @@
     "preserveCompilationContext": true
   },
   "dependencies": {
-    "Microsoft.Azure.Mobile": "1.0.0",
-    "Microsoft.Azure.Mobile.Analytics": "1.0.0",
-    "Microsoft.Azure.Mobile.Crashes": "1.0.0",
     "Microsoft.NETCore.App": {
       "version": "1.0.0"
     },
     "Tizen.Library": "1.0.0-pre3",
-    "Xamarin.Forms.Platform.Tizen": "2.3.4-r214-002"
+    "Xamarin.Forms.Platform.Tizen": "2.3.4-r214-002",
+    "Tizen.Build.Task": "*"
   },
   "runtimes": {
     "win": {},

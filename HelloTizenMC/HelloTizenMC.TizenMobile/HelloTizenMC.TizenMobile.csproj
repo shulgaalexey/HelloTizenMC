@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--  Property of Tizen Build Task-->
+  <PropertyGroup>
+    <TizenApplication>true</TizenApplication>
+  </PropertyGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -59,6 +63,20 @@
       <Project>{15eaf52e-227a-4309-93c6-931e448034b9}</Project>
       <Name>HelloTizenMC</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Azure.Mobile, Version=1.2.3.4, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MCSDK\mobile-center-sdk-dotnet\SDK\MobileCenter\Microsoft.Azure.Mobile.Tizen\bin\Debug\Microsoft.Azure.Mobile.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MCSDK\mobile-center-sdk-dotnet\SDK\MobileCenterAnalytics\Microsoft.Azure.Mobile.Analytics.Tizen\bin\Debug\Microsoft.Azure.Mobile.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Azure.Mobile.Crashes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\MCSDK\mobile-center-sdk-dotnet\SDK\MobileCenterCrashes\Microsoft.Azure.Mobile.Crashes.Tizen\bin\Debug\Microsoft.Azure.Mobile.Crashes.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
