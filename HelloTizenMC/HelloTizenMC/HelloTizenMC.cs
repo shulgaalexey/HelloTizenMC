@@ -5,6 +5,10 @@ using System.Text;
 
 using Xamarin.Forms;
 
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using System.Collections.Generic;
+
 namespace HelloTizenMC
 {
     public class App : Application
@@ -30,6 +34,17 @@ namespace HelloTizenMC
         protected override void OnStart()
         {
             // Handle when your app starts
+
+            try
+            {
+                MobileCenter.Start("2af1f802-b9a0-4382-b2f5-451d446604e5", typeof(Analytics));
+                Analytics.TrackEvent("Video clicked", new Dictionary<string, string> { { "Category", "Music" }, { "FileName", "favorite.avi" } });
+
+            }
+            catch (Exception ex)
+            {
+                MobileCenterLog.Error(MobileCenterLog.LogTag, "Exception: " + ex.GetType());
+            }
         }
 
         protected override void OnSleep()

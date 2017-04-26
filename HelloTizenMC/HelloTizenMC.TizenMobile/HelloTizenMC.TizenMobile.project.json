@@ -6,9 +6,6 @@
     "preserveCompilationContext": true
   },
   "dependencies": {
-    "Microsoft.Azure.Mobile": "1.0.0",
-    "Microsoft.Azure.Mobile.Analytics": "1.0.0",
-    "Microsoft.Azure.Mobile.Crashes": "1.0.0",
     "Microsoft.NETCore.App": {
       "version": "1.0.0"
     },
