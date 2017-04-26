@@ -37,6 +37,7 @@ namespace HelloTizenMC
 
             try
             {
+                MobileCenter.LogLevel = LogLevel.Verbose;
                 MobileCenter.Start("2af1f802-b9a0-4382-b2f5-451d446604e5", typeof(Analytics));
                 Analytics.TrackEvent("Video clicked", new Dictionary<string, string> { { "Category", "Music" }, { "FileName", "favorite.avi" } });
 
@@ -44,6 +45,8 @@ namespace HelloTizenMC
             catch (Exception ex)
             {
                 MobileCenterLog.Error(MobileCenterLog.LogTag, "Exception: " + ex.GetType());
+                MobileCenterLog.Error(MobileCenterLog.LogTag, "Exception: " + ex.Message);
+                MobileCenterLog.Error(MobileCenterLog.LogTag, "Exception: " + ex.StackTrace);
             }
         }
 

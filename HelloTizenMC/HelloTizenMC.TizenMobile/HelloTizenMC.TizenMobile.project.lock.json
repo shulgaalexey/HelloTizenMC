@@ -13297,20 +13297,20 @@
     ".NETCoreApp,Version=v1.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Samsung\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexey\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.csproj",
+      "projectUniqueName": "C:\\projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.csproj",
       "projectName": "HelloTizenMC.TizenMobile",
-      "projectPath": "C:\\Projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.csproj",
-      "projectJsonPath": "C:\\Projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.project.json",
+      "projectPath": "C:\\projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.csproj",
+      "projectJsonPath": "C:\\projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.TizenMobile\\HelloTizenMC.TizenMobile.project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "netcoreapp1.0": {
           "projectReferences": {
-            "C:\\Projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.csproj": {
-              "projectPath": "C:\\Projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.csproj"
+            "C:\\projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.csproj": {
+              "projectPath": "C:\\projects\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC\\HelloTizenMC.csproj"
             }
           }
         }
